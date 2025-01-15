@@ -1,0 +1,19 @@
+stages:
+  - build
+  - test
+  - deploy
+
+# Build stage
+build:
+  script:
+    - docker-compose build    # Build Docker images for frontend and backend
+
+# Test stage (optional for testing backend)
+test:
+  script:
+    - npm run test  # Run your backend tests (e.g., with Jest, Mocha, etc.)
+
+# Deploy stage
+deploy:
+  script:
+    - docker-compose up -d  # Deploy the containers in detached mode

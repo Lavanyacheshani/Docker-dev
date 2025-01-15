@@ -1,0 +1,16 @@
+services:
+  backend:
+    build:
+      context: ./backend  # Use the backend folder as the build context
+      dockerfile: Dockerfile
+    ports:
+      - "3000:3000"
+
+  frontend:
+    build:
+      context: .
+      dockerfile: frontend/Dockerfile
+    ports:
+      - "8080:80"
+    depends_on:
+      - backend
