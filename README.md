@@ -58,8 +58,4 @@ This repository contains a **To-Do Application** demonstrating modern cloud appl
 ---
 
 
-This setup distributes traffic across multiple backend instance.
 
----
-
-Feel free to update the **Contributors** section with team names and make changes based on your needs.
