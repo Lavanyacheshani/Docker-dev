@@ -51,11 +51,5 @@ This repository contains a **To-Do Application** demonstrating modern cloud appl
    docker-compose up
    ```
 
-3. **Access the application**:
-   - **Frontend**: [http://localhost:8080](http://localhost:8080)
-   - **Backend API**: [http://localhost:3000](http://localhost:3000)
-
----
-
 
 
